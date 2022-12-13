@@ -1,0 +1,111 @@
+label[for=”bt_menu”] {
+    display: block;
+    }
+     
+   #bt_menu:checked ~ .menu{
+    margin-left: 0;
+    }
+    
+     
+   .menu{
+    margin-top: 5px;
+    margin-left: -100%;
+    transition: all .4s;
+    }
+     
+   .menu ul li {
+    width: 100%;
+    float: none;
+    }
+     
+   .menu ul ul {
+    position: static;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 4s;
+    }
+     
+   .menu ul li:hover ul {
+    height: auto;
+    max-height: 200px;
+    }
+    div#logo{
+        text-align: center;
+        background-image: linear-gradient(#8106ec, #bb8ce6);
+        margin: auto 0;
+        text-align: center;
+    
+    }
+    div#logo * {
+        vertical-align: bottom;
+        margin-left: 0.5em;
+        text-align: center;
+        display: grid;
+        
+    }
+    div#logo img {
+    margin: auto;
+        text-align: center;
+    
+    }
+    
+    
+    div#logo span {
+        font-size: 2em;
+        font-weight: bold;
+    }
+body{
+    background-color: #bb8ce6;
+}    
+#form{
+    display: flex; 
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content:center;
+
+}
+main{
+border:1px solid rgb(222, 199, 230);
+margin: 0em 2em;
+}
+.item item-5{
+    /* display: block; */
+    /* justify-content:center; */
+    /* text-align: center;
+    flex-direction: column; */
+
+        height: auto;
+        width: 100vw;
+        display: grid;
+}
+.bottom-element{
+    height: auto;
+}
+/* .item item-3{
+    display: inline-flex; 
+} */
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100vw;
+}
+footer {
+    /* background-color: #003366; */
+    background-color: black;
+    margin-top: auto;
+}
+
+header, footer {
+    color: white;
+    padding: 0.5em;
+}
+
+footer a {
+    color: white;
+}
+
+div#usuarioInfo span, footer span {
+    display: block;
+    margin-bottom: 0.5em;
+}
